@@ -8,6 +8,6 @@ describe("/ GET",()=>{
         request(app).get('/').expect(200,done)
     })
     it("responds with message",(done)=>{
-        request(app).get('/').expect("dfg",done)
+        request(app).get('/').expect(' This is Show and Tell on Github Actions',done)
     })
 })
